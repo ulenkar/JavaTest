@@ -1,10 +1,10 @@
 package synchro;
 
-class Balance {
+public class Balance {
 
 	  private int number = 0;
 
-	  public int balance() {
+	  synchronized public int balance() {
 	    number++;
 	    number--;
 	    return number;

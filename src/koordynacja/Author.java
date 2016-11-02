@@ -10,9 +10,9 @@ public class Author extends Thread {
 
 	  public void run() {
 
-	    String[] s = { "Pies", "Kot", "Zebra", "Lew", "Owca", "S³oñ", null };
+	    String[] s = { "Pies", "Kot", "Zebra", "Lew", "Owca", "SÂ³oÃ±", "Mysz", null };
 	    for (int i=0; i<s.length; i++) {
-	      try { // autor zastanawia siê chwilê co napisaæ
+	      try { // autor zastanawia siÃª chwilÃª co napisaÃ¦
 	        sleep((int)(Math.random() * 1000));
 	      } catch(InterruptedException exc) { }
 	      txtArea.setTextToWrite(s[i]);

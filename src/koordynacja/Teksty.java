@@ -11,6 +11,7 @@ class Teksty {
 	        wait();
 	      } catch(InterruptedException exc) {}
 	    }
+	    System.out.println("metoda set: " + s);
 	    txt = s;
 	    newTxt = true;
 	    notifyAll();
@@ -21,6 +22,7 @@ class Teksty {
 	    while (newTxt == false) {
 	      try {
 	        wait();
+	        System.out.println("metoda get: " + txt);
 	      } catch(InterruptedException exc) {}
 	    }
 	    newTxt = false;

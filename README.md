@@ -1,0 +1,3 @@
+# JavaTest
+
+Ćwiczenie koordynacji wątków
